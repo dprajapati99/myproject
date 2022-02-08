@@ -65,11 +65,11 @@
             </div><br>
             <label for="authors">Author</label><br>
             <select id="authors" v-model="blog.author"> 
-              <option value="Jaimi">Jaimi</option>
-              <option value="Jemu">Jemu</option>
-              <option value="Jay" selected>Jay</option>
-              <option value="Jemi">Jemi</option>
-              <option value="Jaymi">Jaymi</option>
+              <option value="Andy Warhol">Andy Warhol</option>
+              <option value="Vincent Van Gogh">Vincent Van Gogh</option>
+              <option value="Jackson Pollock" selected>Jackson Pollock</option>
+              <option value="Claude Monet">Claude Monet</option>
+              <option value="Salvador Dalí">Salvador Dalí</option>
             </select>
             <button v-on:click.prevent='postmethod()'>
               Add Blog
