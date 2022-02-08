@@ -26,6 +26,11 @@
      <router-link to="/filterc">filterc</router-link><br />
       <router-link to="/mixa">mixa</router-link><br />
        <router-link to="/mixb">mixb</router-link><br />
+       
+          <router-link to="/post">post</router-link><br />
+          <router-link to="/addblog">addblog</router-link><br />
+             <!-- <router-link to="/singleblog">singleblog</router-link><br /> -->
+            <router-link to="/showblog">showblog</router-link><br />
      
     <router-view></router-view>
     

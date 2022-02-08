@@ -21,6 +21,10 @@ import search from './components/search'
 import filterc from './components/filterc'
 import mixa from './components/mixa'
 import mixb from './components/mixb'
+import post from './components/post'
+import addblog from './components/addblog'
+// import singleblog from './components/singleblog'
+import showblog from './components/showblog'
 
 
 
@@ -136,6 +140,26 @@ const routes=[
         name:'mixb',
         path:'/mixb',
         component:mixb
+    },
+    {
+        name:'post',
+        path:'/post',
+        component:post
+    },
+    {
+        name:'addblog',
+        path:'/addblog',
+        component:addblog
+    },
+    // {
+    //     name:'singleblog',
+    //     path:'/singleblog',
+    //     component:singleblog
+    // },
+    {
+        name:'showblog',
+        path:'/showblog',
+        component:showblog
     },
 
 

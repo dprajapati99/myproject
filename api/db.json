@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "dhwani prajapati",
+      "email": "dprajapati@gmail.com",
+      "add": "ahmedabad"
+    },
+    {
+      "id": 2,
+      "name": "jinu prajapati",
+      "email": "jprajapati@gmail.com",
+      "add": "ahmedabad"
+    },
+    {
+      "id": 112,
+      "name": "helly",
+      "email": "hprajapati@gmail.com",
+      "add": "bombay"
+    },
+    {
+      "name": "smit",
+      "email": "smit@gmail.com",
+      "add": "vatva ",
+      "id": 113
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

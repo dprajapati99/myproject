@@ -1,17 +1,28 @@
 import Vue from 'vue';
 import { createApp } from 'vue'
-import  firebase from "firebase/app";
+
 import App from './App.vue'
 import router from './routes'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import { firebaseConfig } from './firebase.js'
 import 'firebase/firestore'
+import { initializeApp } from "firebase/app";
 
-firebase.initializeApp(firebaseConfig)
-export const db = firebase.firestore
+const firebaseConfig = {
+  apiKey: "AIzaSyAMawM1IZmoMXS2b0yqeXeiU7qfyjtmhMI",
+  authDomain: "myproject-7acf3.firebaseapp.com",
+  projectId: "myproject-7acf3",
+  storageBucket: "myproject-7acf3.appspot.com",
+  messagingSenderId: "31687430682",
+  appId: "1:31687430682:web:3ab10929488e9212ed77a3",
+  measurementId: "G-4J1VMV2ZD8"
+};
 
-console.log(db);
+const db = initializeApp(firebaseConfig);
+// firebase.initializeApp(firebaseConfig)
+//export const db = firebase.firestore()
+console.log(db)
+
 
 
 const app = createApp(App)
@@ -25,7 +36,7 @@ app.mount('#app')
 
 
 
-export const eventBus = new Vue();
+//export const eventBus = new Vue();
 
 // creating an event bus.
 
